@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 )
@@ -58,10 +59,18 @@ func getAllAddresses(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(addresses)
 }
 
+func getPort() string {
+	port := os.Getenv("PORT")
+	if len(port) == 0 {
+		return "8080"
+	}
+	return port
+}
+
 func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", getAllAddresses).Methods(http.MethodGet)
 	router.HandleFunc("/", createAddress).Methods(http.MethodPost)
 	router.HandleFunc("/address/{id}", getOneAddress).Methods(http.MethodGet)
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Fatal(http.ListenAndServe(":"+getPort(), router))
 }
