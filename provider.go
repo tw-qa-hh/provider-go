@@ -68,6 +68,7 @@ func getPort() string {
 }
 
 func main() {
+	fmt.Println("Server start...")
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", getAllAddresses).Methods(http.MethodGet)
 	router.HandleFunc("/", createAddress).Methods(http.MethodPost)
