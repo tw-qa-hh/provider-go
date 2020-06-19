@@ -33,5 +33,4 @@ func TestProvider(t *testing.T) {
 		FailIfNoPactsFound:         false,
 		EnablePending:              true,
 	})
-
 }
