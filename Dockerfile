@@ -16,4 +16,4 @@ COPY . /app
 
 EXPOSE 8080
 
-ENTRYPOINT go run provider
+ENTRYPOINT ['go', 'run', 'provider']
