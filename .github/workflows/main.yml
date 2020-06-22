@@ -16,7 +16,7 @@ jobs:
       - name: Test
         run: go test -v -run TestProvider
 
-  build&push:
+  build_and_push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -31,7 +31,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    needs: build&push
+    needs: build_and_push
     steps:
       - name: Release
         env:
