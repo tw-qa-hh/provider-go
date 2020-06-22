@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:latest
 
 RUN \
   apt-get update && apt-get install -y --no-install-recommends --no-install-suggests curl bzip2 build-essential libssl-dev libreadline-dev zlib1g-dev && \
@@ -8,12 +8,18 @@ RUN \
   ruby-build -v 2.5.1 /usr/local && rm -rfv /tmp/ruby-build-* && \
   gem install bundler --no-rdoc --no-ri
 
-WORKDIR /app
-
 RUN gem install pact-provider-verifier
 
-COPY . /app
+WORKDIR /app
+
+COPY go.mod go.sum ./
+
+RUN go mod download
+
+COPY . .
+
+RUN go build -o provider .
 
 EXPOSE 8080
 
-ENTRYPOINT ['go', 'run', 'provider']
+ENTRYPOINT ["./provider"]
