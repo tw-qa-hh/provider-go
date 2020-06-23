@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-go@v2
       - name: Install Ruby
         uses: actions/setup-ruby@v1
+      - name: Install Pact Provider Verifier
         run: gem install pact-provider-verifier
       - name: Checkout code
         uses: actions/checkout@v2
