@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Prepare Test
         run: |
-        chmod +x ./scripts/prepare_test.sh
+        chmod +x ./scripts/prepare_test.sh |
         ./scripts/prepare_test.sh
       - name: Test
         run: go test -v -run TestProvider
