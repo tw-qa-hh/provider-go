@@ -13,12 +13,9 @@ jobs:
         uses: actions/setup-go@v2
       - name: Install Ruby
         uses: actions/setup-ruby@v1
+        run: gem install pact-provider-verifier
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Prepare Test
-        run: |
-        chmod +x ./scripts/prepare_test.sh |
-        ./scripts/prepare_test.sh
       - name: Test
         run: go test -v -run TestProvider
 
