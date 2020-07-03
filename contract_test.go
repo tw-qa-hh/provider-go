@@ -15,10 +15,6 @@ func TestProvider(t *testing.T) {
 		LogLevel:                 "DEBUG",
 	}
 
-	//consumer := types.ConsumerVersionSelector{
-	//	Latest: true,
-	//}
-
 	// Start provider API in the background
 	go main()
 
@@ -26,7 +22,7 @@ func TestProvider(t *testing.T) {
 		Provider:                   "provider-go",
 		ProviderBaseURL:            "http://localhost:8080",
 		BrokerURL:                  "https://qa-ham-pact-broker.herokuapp.com/",
-		//ConsumerVersionSelectors:   []types.ConsumerVersionSelector{consumer},
+		Tags:                       []string{"consumer-js", "consumer-py"},
 		PublishVerificationResults: true,
 		ProviderVersion:            "1.0.0",
 		FailIfNoPactsFound:         false,
