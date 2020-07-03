@@ -12,13 +12,12 @@ func TestProvider(t *testing.T) {
 	pact := &dsl.Pact{
 		Provider:                 "provider-go",
 		DisableToolValidityCheck: true,
-		LogLevel:                 "INFO",
+		LogLevel:                 "DEBUG",
 	}
 
-	consumerJs := &types.ConsumerVersionSelector{
-		Pacticipant: "consumer-js",
-		Tag: "qa-ham",
-	}
+	//consumer := types.ConsumerVersionSelector{
+	//	Latest: true,
+	//}
 
 	// Start provider API in the background
 	go main()
@@ -27,7 +26,7 @@ func TestProvider(t *testing.T) {
 		Provider:                   "provider-go",
 		ProviderBaseURL:            "http://localhost:8080",
 		BrokerURL:                  "https://qa-ham-pact-broker.herokuapp.com/",
-		ConsumerVersionSelectors:   []types.ConsumerVersionSelector{*consumerJs},
+		//ConsumerVersionSelectors:   []types.ConsumerVersionSelector{consumer},
 		PublishVerificationResults: true,
 		ProviderVersion:            "1.0.0",
 		FailIfNoPactsFound:         false,

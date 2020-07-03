@@ -14,9 +14,9 @@ import (
 const fileStore = "addresses.json"
 
 type address struct {
-	ID     string `json:"ID"`
-	Zip    string `json:"Zip"`
-	Street string `json:"Street"`
+	ID      string `json:"ID"`
+	ZipCode string `json:"ZipCode"`
+	Street  string `json:"Street"`
 }
 
 type allAddresses []address
@@ -56,6 +56,7 @@ func getOneAddress(w http.ResponseWriter, r *http.Request) {
 
 func getAllAddresses(w http.ResponseWriter, r *http.Request) {
 	getSavedAddresses()
+	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(addresses)
 }
 
@@ -73,5 +74,7 @@ func main() {
 	router.HandleFunc("/", getAllAddresses).Methods(http.MethodGet)
 	router.HandleFunc("/", createAddress).Methods(http.MethodPost)
 	router.HandleFunc("/address/{id}", getOneAddress).Methods(http.MethodGet)
-	log.Fatal(http.ListenAndServe(":"+getPort(), router))
+	port := getPort()
+	log.Println("Listening on", port)
+	log.Fatal(http.ListenAndServe(":"+port, router))
 }
