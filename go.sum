@@ -62,6 +62,7 @@ github.com/modocache/gover v0.0.0-20171022184752-b58185e213c5/go.mod h1:caMODM3P
 github.com/pact-foundation/pact-go v1.4.3 h1:n0izE6muA7ptX/KDa4lG2qzcPqNVihc6c96AJQqVrTM=
 github.com/pact-foundation/pact-go v1.4.3/go.mod h1:NpKc1tNdk7OJr+M6leStTuzG4EQ1BNP14Hd7u41k4oA=
 github.com/pact-foundation/pact-go v1.5.3/go.mod h1:dN3I+UHNkIk5ZMxSt2+lqavCqfTu+xsx56ZME8BNWlU=
+github.com/pact-foundation/pact-go v1.6.4/go.mod h1:dN3I+UHNkIk5ZMxSt2+lqavCqfTu+xsx56ZME8BNWlU=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4/go.mod h1:xMI15A0UPsDsEKsMN9yxemIoYk6Tm2C1GtYGdfGttqA=
