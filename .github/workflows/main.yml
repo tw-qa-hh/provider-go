@@ -16,7 +16,7 @@ jobs:
       - name: Install Pact Provider Verifier
         run: gem install pact-provider-verifier
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Test
         run: go test -v -run TestProvider
 
@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-24.04
     needs: test
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Login to Heroku Container registry
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
