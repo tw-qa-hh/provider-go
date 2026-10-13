@@ -189,7 +189,7 @@ require (
 	github.com/apache/arrow/go/v12 v12.0.1 // indirect
 	github.com/apache/arrow/go/v14 v14.0.2 // indirect
 	github.com/apache/arrow/go/v15 v15.0.2 // indirect
-	github.com/apache/thrift v0.17.0 // indirect
+	github.com/apache/thrift v0.24.0 // indirect
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e // indirect
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310 // indirect
