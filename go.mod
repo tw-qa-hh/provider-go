@@ -9,137 +9,137 @@ require (
 )
 
 require (
-	cel.dev/expr v0.25.1 // indirect
-	cloud.google.com/go v0.120.0 // indirect
-	cloud.google.com/go/accessapproval v1.8.3 // indirect
-	cloud.google.com/go/accesscontextmanager v1.9.3 // indirect
-	cloud.google.com/go/aiplatform v1.74.0 // indirect
-	cloud.google.com/go/analytics v0.26.0 // indirect
-	cloud.google.com/go/apigateway v1.7.3 // indirect
-	cloud.google.com/go/apigeeconnect v1.7.3 // indirect
-	cloud.google.com/go/apigeeregistry v0.9.3 // indirect
+	cel.dev/expr v0.25.2 // indirect
+	cloud.google.com/go v0.123.0 // indirect
+	cloud.google.com/go/accessapproval v1.8.8 // indirect
+	cloud.google.com/go/accesscontextmanager v1.9.7 // indirect
+	cloud.google.com/go/aiplatform v1.114.0 // indirect
+	cloud.google.com/go/analytics v0.30.1 // indirect
+	cloud.google.com/go/apigateway v1.7.7 // indirect
+	cloud.google.com/go/apigeeconnect v1.7.7 // indirect
+	cloud.google.com/go/apigeeregistry v0.10.0 // indirect
 	cloud.google.com/go/apikeys v0.6.0 // indirect
-	cloud.google.com/go/appengine v1.9.3 // indirect
-	cloud.google.com/go/area120 v0.9.3 // indirect
-	cloud.google.com/go/artifactregistry v1.16.1 // indirect
-	cloud.google.com/go/asset v1.20.4 // indirect
-	cloud.google.com/go/assuredworkloads v1.12.3 // indirect
-	cloud.google.com/go/auth v0.15.0 // indirect
+	cloud.google.com/go/appengine v1.9.7 // indirect
+	cloud.google.com/go/area120 v0.9.7 // indirect
+	cloud.google.com/go/artifactregistry v1.19.0 // indirect
+	cloud.google.com/go/asset v1.22.0 // indirect
+	cloud.google.com/go/assuredworkloads v1.13.0 // indirect
+	cloud.google.com/go/auth v0.18.2 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
-	cloud.google.com/go/automl v1.14.4 // indirect
-	cloud.google.com/go/baremetalsolution v1.3.3 // indirect
-	cloud.google.com/go/batch v1.12.0 // indirect
-	cloud.google.com/go/beyondcorp v1.1.3 // indirect
-	cloud.google.com/go/bigquery v1.66.2 // indirect
-	cloud.google.com/go/bigtable v1.35.0 // indirect
-	cloud.google.com/go/billing v1.20.1 // indirect
-	cloud.google.com/go/binaryauthorization v1.9.3 // indirect
-	cloud.google.com/go/certificatemanager v1.9.3 // indirect
-	cloud.google.com/go/channel v1.19.2 // indirect
-	cloud.google.com/go/cloudbuild v1.22.0 // indirect
-	cloud.google.com/go/clouddms v1.8.4 // indirect
-	cloud.google.com/go/cloudtasks v1.13.3 // indirect
-	cloud.google.com/go/compute v1.34.0 // indirect
+	cloud.google.com/go/automl v1.15.0 // indirect
+	cloud.google.com/go/baremetalsolution v1.4.0 // indirect
+	cloud.google.com/go/batch v1.14.0 // indirect
+	cloud.google.com/go/beyondcorp v1.2.0 // indirect
+	cloud.google.com/go/bigquery v1.72.0 // indirect
+	cloud.google.com/go/bigtable v1.41.0 // indirect
+	cloud.google.com/go/billing v1.21.0 // indirect
+	cloud.google.com/go/binaryauthorization v1.10.0 // indirect
+	cloud.google.com/go/certificatemanager v1.9.6 // indirect
+	cloud.google.com/go/channel v1.21.0 // indirect
+	cloud.google.com/go/cloudbuild v1.25.0 // indirect
+	cloud.google.com/go/clouddms v1.8.8 // indirect
+	cloud.google.com/go/cloudtasks v1.13.7 // indirect
+	cloud.google.com/go/compute v1.54.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
-	cloud.google.com/go/contactcenterinsights v1.17.1 // indirect
-	cloud.google.com/go/container v1.42.2 // indirect
-	cloud.google.com/go/containeranalysis v0.13.3 // indirect
-	cloud.google.com/go/datacatalog v1.24.3 // indirect
-	cloud.google.com/go/dataflow v0.10.3 // indirect
-	cloud.google.com/go/dataform v0.10.3 // indirect
-	cloud.google.com/go/datafusion v1.8.3 // indirect
-	cloud.google.com/go/datalabeling v0.9.3 // indirect
-	cloud.google.com/go/dataplex v1.22.0 // indirect
+	cloud.google.com/go/contactcenterinsights v1.17.4 // indirect
+	cloud.google.com/go/container v1.45.0 // indirect
+	cloud.google.com/go/containeranalysis v0.14.2 // indirect
+	cloud.google.com/go/datacatalog v1.26.1 // indirect
+	cloud.google.com/go/dataflow v0.11.1 // indirect
+	cloud.google.com/go/dataform v0.12.1 // indirect
+	cloud.google.com/go/datafusion v1.8.7 // indirect
+	cloud.google.com/go/datalabeling v0.9.7 // indirect
+	cloud.google.com/go/dataplex v1.28.0 // indirect
 	cloud.google.com/go/dataproc v1.12.0 // indirect
-	cloud.google.com/go/dataproc/v2 v2.11.0 // indirect
-	cloud.google.com/go/dataqna v0.9.3 // indirect
-	cloud.google.com/go/datastore v1.20.0 // indirect
-	cloud.google.com/go/datastream v1.13.0 // indirect
-	cloud.google.com/go/deploy v1.26.2 // indirect
-	cloud.google.com/go/dialogflow v1.66.0 // indirect
-	cloud.google.com/go/dlp v1.21.0 // indirect
-	cloud.google.com/go/documentai v1.35.2 // indirect
-	cloud.google.com/go/domains v0.10.3 // indirect
-	cloud.google.com/go/edgecontainer v1.4.1 // indirect
-	cloud.google.com/go/errorreporting v0.3.2 // indirect
-	cloud.google.com/go/essentialcontacts v1.7.3 // indirect
-	cloud.google.com/go/eventarc v1.15.1 // indirect
-	cloud.google.com/go/filestore v1.9.3 // indirect
-	cloud.google.com/go/firestore v1.18.0 // indirect
-	cloud.google.com/go/functions v1.19.3 // indirect
+	cloud.google.com/go/dataproc/v2 v2.15.0 // indirect
+	cloud.google.com/go/dataqna v0.9.8 // indirect
+	cloud.google.com/go/datastore v1.21.0 // indirect
+	cloud.google.com/go/datastream v1.15.1 // indirect
+	cloud.google.com/go/deploy v1.27.3 // indirect
+	cloud.google.com/go/dialogflow v1.74.0 // indirect
+	cloud.google.com/go/dlp v1.28.0 // indirect
+	cloud.google.com/go/documentai v1.39.0 // indirect
+	cloud.google.com/go/domains v0.10.7 // indirect
+	cloud.google.com/go/edgecontainer v1.4.4 // indirect
+	cloud.google.com/go/errorreporting v0.4.0 // indirect
+	cloud.google.com/go/essentialcontacts v1.7.7 // indirect
+	cloud.google.com/go/eventarc v1.18.0 // indirect
+	cloud.google.com/go/filestore v1.10.3 // indirect
+	cloud.google.com/go/firestore v1.21.0 // indirect
+	cloud.google.com/go/functions v1.19.7 // indirect
 	cloud.google.com/go/gaming v1.10.1 // indirect
-	cloud.google.com/go/gkebackup v1.6.3 // indirect
-	cloud.google.com/go/gkeconnect v0.12.1 // indirect
-	cloud.google.com/go/gkehub v0.15.3 // indirect
-	cloud.google.com/go/gkemulticloud v1.5.1 // indirect
-	cloud.google.com/go/grafeas v0.3.11 // indirect
-	cloud.google.com/go/gsuiteaddons v1.7.4 // indirect
-	cloud.google.com/go/iam v1.4.0 // indirect
-	cloud.google.com/go/iap v1.10.3 // indirect
-	cloud.google.com/go/ids v1.5.3 // indirect
-	cloud.google.com/go/iot v1.8.3 // indirect
-	cloud.google.com/go/kms v1.21.0 // indirect
-	cloud.google.com/go/language v1.14.3 // indirect
-	cloud.google.com/go/lifesciences v0.10.3 // indirect
-	cloud.google.com/go/logging v1.13.0 // indirect
-	cloud.google.com/go/longrunning v0.6.6 // indirect
-	cloud.google.com/go/managedidentities v1.7.3 // indirect
-	cloud.google.com/go/maps v1.19.0 // indirect
-	cloud.google.com/go/mediatranslation v0.9.3 // indirect
-	cloud.google.com/go/memcache v1.11.3 // indirect
-	cloud.google.com/go/metastore v1.14.3 // indirect
-	cloud.google.com/go/monitoring v1.24.1 // indirect
-	cloud.google.com/go/networkconnectivity v1.16.1 // indirect
-	cloud.google.com/go/networkmanagement v1.18.0 // indirect
-	cloud.google.com/go/networksecurity v0.10.3 // indirect
-	cloud.google.com/go/notebooks v1.12.3 // indirect
-	cloud.google.com/go/optimization v1.7.3 // indirect
-	cloud.google.com/go/orchestration v1.11.4 // indirect
-	cloud.google.com/go/orgpolicy v1.14.2 // indirect
-	cloud.google.com/go/osconfig v1.14.3 // indirect
-	cloud.google.com/go/oslogin v1.14.3 // indirect
-	cloud.google.com/go/phishingprotection v0.9.3 // indirect
-	cloud.google.com/go/policytroubleshooter v1.11.3 // indirect
-	cloud.google.com/go/privatecatalog v0.10.4 // indirect
-	cloud.google.com/go/pubsub v1.47.0 // indirect
+	cloud.google.com/go/gkebackup v1.8.1 // indirect
+	cloud.google.com/go/gkeconnect v0.12.5 // indirect
+	cloud.google.com/go/gkehub v0.16.0 // indirect
+	cloud.google.com/go/gkemulticloud v1.6.0 // indirect
+	cloud.google.com/go/grafeas v0.3.16 // indirect
+	cloud.google.com/go/gsuiteaddons v1.7.8 // indirect
+	cloud.google.com/go/iam v1.5.3 // indirect
+	cloud.google.com/go/iap v1.11.3 // indirect
+	cloud.google.com/go/ids v1.5.7 // indirect
+	cloud.google.com/go/iot v1.8.7 // indirect
+	cloud.google.com/go/kms v1.25.0 // indirect
+	cloud.google.com/go/language v1.14.6 // indirect
+	cloud.google.com/go/lifesciences v0.10.7 // indirect
+	cloud.google.com/go/logging v1.13.1 // indirect
+	cloud.google.com/go/longrunning v0.8.0 // indirect
+	cloud.google.com/go/managedidentities v1.7.7 // indirect
+	cloud.google.com/go/maps v1.26.0 // indirect
+	cloud.google.com/go/mediatranslation v0.9.7 // indirect
+	cloud.google.com/go/memcache v1.11.7 // indirect
+	cloud.google.com/go/metastore v1.14.8 // indirect
+	cloud.google.com/go/monitoring v1.24.3 // indirect
+	cloud.google.com/go/networkconnectivity v1.20.0 // indirect
+	cloud.google.com/go/networkmanagement v1.21.0 // indirect
+	cloud.google.com/go/networksecurity v0.11.0 // indirect
+	cloud.google.com/go/notebooks v1.12.7 // indirect
+	cloud.google.com/go/optimization v1.7.7 // indirect
+	cloud.google.com/go/orchestration v1.11.10 // indirect
+	cloud.google.com/go/orgpolicy v1.15.1 // indirect
+	cloud.google.com/go/osconfig v1.15.1 // indirect
+	cloud.google.com/go/oslogin v1.14.7 // indirect
+	cloud.google.com/go/phishingprotection v0.9.7 // indirect
+	cloud.google.com/go/policytroubleshooter v1.11.7 // indirect
+	cloud.google.com/go/privatecatalog v0.10.8 // indirect
+	cloud.google.com/go/pubsub v1.50.1 // indirect
 	cloud.google.com/go/pubsublite v1.8.2 // indirect
 	cloud.google.com/go/recaptchaenterprise v1.3.1 // indirect
-	cloud.google.com/go/recaptchaenterprise/v2 v2.19.4 // indirect
-	cloud.google.com/go/recommendationengine v0.9.3 // indirect
-	cloud.google.com/go/recommender v1.13.3 // indirect
-	cloud.google.com/go/redis v1.18.0 // indirect
-	cloud.google.com/go/resourcemanager v1.10.3 // indirect
+	cloud.google.com/go/recaptchaenterprise/v2 v2.21.0 // indirect
+	cloud.google.com/go/recommendationengine v0.9.7 // indirect
+	cloud.google.com/go/recommender v1.13.6 // indirect
+	cloud.google.com/go/redis v1.18.3 // indirect
+	cloud.google.com/go/resourcemanager v1.10.7 // indirect
 	cloud.google.com/go/resourcesettings v1.8.3 // indirect
-	cloud.google.com/go/retail v1.19.2 // indirect
-	cloud.google.com/go/run v1.9.0 // indirect
-	cloud.google.com/go/scheduler v1.11.4 // indirect
-	cloud.google.com/go/secretmanager v1.14.5 // indirect
-	cloud.google.com/go/security v1.18.3 // indirect
-	cloud.google.com/go/securitycenter v1.36.0 // indirect
+	cloud.google.com/go/retail v1.25.1 // indirect
+	cloud.google.com/go/run v1.15.0 // indirect
+	cloud.google.com/go/scheduler v1.11.8 // indirect
+	cloud.google.com/go/secretmanager v1.16.0 // indirect
+	cloud.google.com/go/security v1.19.2 // indirect
+	cloud.google.com/go/securitycenter v1.38.1 // indirect
 	cloud.google.com/go/servicecontrol v1.11.1 // indirect
-	cloud.google.com/go/servicedirectory v1.12.3 // indirect
+	cloud.google.com/go/servicedirectory v1.12.7 // indirect
 	cloud.google.com/go/servicemanagement v1.8.0 // indirect
 	cloud.google.com/go/serviceusage v1.6.0 // indirect
-	cloud.google.com/go/shell v1.8.3 // indirect
-	cloud.google.com/go/spanner v1.76.1 // indirect
-	cloud.google.com/go/speech v1.26.0 // indirect
-	cloud.google.com/go/storage v1.50.0 // indirect
-	cloud.google.com/go/storagetransfer v1.12.1 // indirect
-	cloud.google.com/go/talent v1.8.0 // indirect
-	cloud.google.com/go/texttospeech v1.11.0 // indirect
-	cloud.google.com/go/tpu v1.8.0 // indirect
-	cloud.google.com/go/trace v1.11.5 // indirect
-	cloud.google.com/go/translate v1.12.3 // indirect
-	cloud.google.com/go/video v1.23.3 // indirect
-	cloud.google.com/go/videointelligence v1.12.3 // indirect
+	cloud.google.com/go/shell v1.8.7 // indirect
+	cloud.google.com/go/spanner v1.87.0 // indirect
+	cloud.google.com/go/speech v1.29.0 // indirect
+	cloud.google.com/go/storage v1.56.0 // indirect
+	cloud.google.com/go/storagetransfer v1.13.1 // indirect
+	cloud.google.com/go/talent v1.8.4 // indirect
+	cloud.google.com/go/texttospeech v1.16.0 // indirect
+	cloud.google.com/go/tpu v1.8.4 // indirect
+	cloud.google.com/go/trace v1.11.7 // indirect
+	cloud.google.com/go/translate v1.12.7 // indirect
+	cloud.google.com/go/video v1.27.1 // indirect
+	cloud.google.com/go/videointelligence v1.12.7 // indirect
 	cloud.google.com/go/vision v1.2.0 // indirect
-	cloud.google.com/go/vision/v2 v2.9.3 // indirect
-	cloud.google.com/go/vmmigration v1.8.3 // indirect
-	cloud.google.com/go/vmwareengine v1.3.3 // indirect
-	cloud.google.com/go/vpcaccess v1.8.3 // indirect
-	cloud.google.com/go/webrisk v1.10.3 // indirect
-	cloud.google.com/go/websecurityscanner v1.7.3 // indirect
-	cloud.google.com/go/workflows v1.13.3 // indirect
+	cloud.google.com/go/vision/v2 v2.9.6 // indirect
+	cloud.google.com/go/vmmigration v1.10.0 // indirect
+	cloud.google.com/go/vmwareengine v1.3.6 // indirect
+	cloud.google.com/go/vpcaccess v1.8.7 // indirect
+	cloud.google.com/go/webrisk v1.11.2 // indirect
+	cloud.google.com/go/websecurityscanner v1.7.7 // indirect
+	cloud.google.com/go/workflows v1.14.3 // indirect
 	codeberg.org/go-fonts/dejavu v0.4.0 // indirect
 	codeberg.org/go-fonts/latin-modern v0.4.0 // indirect
 	codeberg.org/go-fonts/liberation v0.5.0 // indirect
@@ -159,11 +159,11 @@ require (
 	git.wow.st/gmp/jni v0.0.0-20210610011705-34026c7e22d0 // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802 // indirect
-	github.com/GoogleCloudPlatform/grpc-gcp-go/grpcgcp v1.5.2 // indirect
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.31.0 // indirect
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.50.0 // indirect
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/cloudmock v0.50.0 // indirect
-	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.50.0 // indirect
+	github.com/GoogleCloudPlatform/grpc-gcp-go/grpcgcp v1.5.3 // indirect
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.33.0 // indirect
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.54.0 // indirect
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/cloudmock v0.54.0 // indirect
+	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.54.0 // indirect
 	github.com/JohnCGriffin/overflow v0.0.0-20211019200055-46fa312c352c // indirect
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
@@ -300,9 +300,9 @@ require (
 	github.com/google/renameio v0.1.0 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/googleapis/cloud-bigtable-clients-test v0.0.3 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.3.6 // indirect
-	github.com/googleapis/gax-go/v2 v2.14.1 // indirect
+	github.com/googleapis/cloud-bigtable-clients-test v0.0.4 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.11 // indirect
+	github.com/googleapis/gax-go/v2 v2.17.0 // indirect
 	github.com/googleapis/go-type-adapters v1.0.0 // indirect
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 // indirect
@@ -443,8 +443,8 @@ require (
 	github.com/spf13/afero v1.15.0 // indirect
 	github.com/spf13/cobra v1.10.2 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
-	github.com/spiffe/go-spiffe/v2 v2.6.0 // indirect
-	github.com/stoewer/go-strcase v1.3.0 // indirect
+	github.com/spiffe/go-spiffe/v2 v2.7.0 // indirect
+	github.com/stoewer/go-strcase v1.3.1 // indirect
 	github.com/streadway/amqp v0.0.0-20190827072141-edfb9018d271 // indirect
 	github.com/streadway/handy v0.0.0-20190108123426-d5acb3125c2a // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
@@ -463,22 +463,22 @@ require (
 	github.com/zeebo/assert v1.3.0 // indirect
 	github.com/zeebo/errs v1.4.0 // indirect
 	github.com/zeebo/xxh3 v1.0.2 // indirect
-	go.einride.tech/aip v0.68.1 // indirect
+	go.einride.tech/aip v0.73.0 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
 	go.etcd.io/etcd v0.0.0-20191023171146-3cf2f69b5738 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/contrib/detectors/gcp v1.42.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.60.0 // indirect
-	go.opentelemetry.io/otel v1.43.0 // indirect
+	go.opentelemetry.io/contrib/detectors/gcp v1.44.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.63.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
+	go.opentelemetry.io/otel v1.44.0 // indirect
 	go.opentelemetry.io/otel/exporters/prometheus v0.57.0 // indirect
-	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.29.0 // indirect
-	go.opentelemetry.io/otel/metric v1.43.0 // indirect
+	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.36.0 // indirect
+	go.opentelemetry.io/otel/metric v1.44.0 // indirect
 	go.opentelemetry.io/otel/oteltest v0.20.0 // indirect
-	go.opentelemetry.io/otel/sdk v1.43.0 // indirect
-	go.opentelemetry.io/otel/sdk/metric v1.43.0 // indirect
-	go.opentelemetry.io/otel/trace v1.43.0 // indirect
+	go.opentelemetry.io/otel/sdk v1.44.0 // indirect
+	go.opentelemetry.io/otel/sdk/metric v1.44.0 // indirect
+	go.opentelemetry.io/otel/trace v1.44.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.9.0 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/goleak v1.3.0 // indirect
@@ -486,34 +486,34 @@ require (
 	go.uber.org/tools v0.0.0-20190618225709-2cfd321de3ee // indirect
 	go.uber.org/zap v1.16.0 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/crypto v0.48.0 // indirect
+	golang.org/x/crypto v0.51.0 // indirect
 	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c // indirect
 	golang.org/x/exp/shiny v0.0.0-20241009180824-f66d83c29e7c // indirect
 	golang.org/x/image v0.25.0 // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/mobile v0.0.0-20231127183840-76ac6878050a // indirect
-	golang.org/x/mod v0.32.0 // indirect
-	golang.org/x/net v0.51.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
 	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.42.0 // indirect
-	golang.org/x/telemetry v0.0.0-20260109210033-bd525da824e2 // indirect
-	golang.org/x/term v0.40.0 // indirect
-	golang.org/x/text v0.34.0 // indirect
-	golang.org/x/time v0.11.0 // indirect
-	golang.org/x/tools v0.41.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/telemetry v0.0.0-20260409153401-be6f6cb8b1fa // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/time v0.14.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gonum.org/v1/gonum v0.17.0 // indirect
 	gonum.org/v1/netlib v0.0.0-20190313105609-8cb42192e0e0 // indirect
 	gonum.org/v1/plot v0.15.2 // indirect
 	gonum.org/v1/tools v0.0.0-20200318103217-c168b003ce8c // indirect
-	google.golang.org/api v0.228.0 // indirect
+	google.golang.org/api v0.264.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
-	google.golang.org/genproto v0.0.0-20250324211829-b45e905df463 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20260226221140-a57be14db171 // indirect
-	google.golang.org/genproto/googleapis/bytestream v0.0.0-20250313205543-e70fdf4c4cb4 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260226221140-a57be14db171 // indirect
-	google.golang.org/grpc v1.81.1 // indirect
+	google.golang.org/genproto v0.0.0-20260128011058-8636f8732409 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/genproto/googleapis/bytestream v0.0.0-20260122232226-8e98ce8d340d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
+	google.golang.org/grpc v1.83.1 // indirect
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.3.0 // indirect
 	google.golang.org/grpc/examples v0.0.0-20250407062114-b368379ef8f6 // indirect
 	google.golang.org/grpc/gcp/observability v1.0.1 // indirect
@@ -531,7 +531,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	gotest.tools/v3 v3.5.1 // indirect
+	gotest.tools/v3 v3.5.2 // indirect
 	honnef.co/go/tools v0.1.3 // indirect
 	lukechampine.com/uint128 v1.3.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
