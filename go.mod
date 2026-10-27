@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/pact-foundation/pact-go v1.10.0
+	github.com/pact-foundation/pact-go v1.0.4
 	github.com/pact-foundation/pact-go/v2 v2.8.0
 )
 
