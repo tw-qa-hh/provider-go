@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/pact-foundation/pact-go/v2 v2.9.0
+	github.com/pact-foundation/pact-go v1.0.4
 	github.com/pact-foundation/pact-go/v2 v2.9.0
 )
 
@@ -260,7 +260,7 @@ require (
 	github.com/go-fonts/stix v0.2.2 // indirect
 	github.com/go-gl/glfw v0.0.0-20190409004039-e6da0acd62b1 // indirect
 	github.com/go-gl/glfw/v3.3/glfw v0.0.0-20231223183121-56fa3ac82ce7 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.6 // indirect
 	github.com/go-kit/kit v0.10.0 // indirect
 	github.com/go-kit/log v0.2.1 // indirect
 	github.com/go-latex/latex v0.0.0-20231108140139-5c1ce85aa4ea // indirect
