@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/pact-foundation/pact-go/v2 v2.9.1
+	github.com/pact-foundation/pact-go v1.0.4
 	github.com/pact-foundation/pact-go/v2 v2.9.1
 )
 
@@ -389,9 +389,9 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/nats-io/jwt v1.1.0 // indirect
-	github.com/nats-io/nats-server/v2 v2.11.15 // indirect
-	github.com/nats-io/nats.go v1.49.0 // indirect
-	github.com/nats-io/nkeys v0.4.15 // indirect
+	github.com/nats-io/nats-server/v2 v2.12.12 // indirect
+	github.com/nats-io/nats.go v1.51.0 // indirect
+	github.com/nats-io/nkeys v0.4.16 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/oklog/oklog v0.3.2 // indirect
 	github.com/oklog/run v1.0.0 // indirect
